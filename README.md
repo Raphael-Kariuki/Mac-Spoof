@@ -5,7 +5,7 @@ macspoof is a simple shell script that utilises the macchanger package to improv
 The goal is to change the maccaddress on interfaces automatically while booting.
 ##Usage
 ``````
-git clone
+git clone https://github.com/traplab/macspoof.git
 cd macspoof
 chmod +x install.sh
 With admin rights
@@ -27,3 +27,4 @@ At the moment the package works for debian installation with their basic interfa
 Still working on a script to detect interface names and proceed as required.
 
 
+Any ideas will be highly appreciated.
