@@ -1,0 +1,12 @@
+[UNIT]
+Description=Change interface mac on boot up
+Before=NetworkManager.service
+
+[SERVICE]
+Type=simple
+ExecStart=/usr/local/bin/macspoof.sh --no-daemon
+Restart=on-failure
+
+[INSTALL]
+WantedBy=default.target
+Alias=macspoof.service
