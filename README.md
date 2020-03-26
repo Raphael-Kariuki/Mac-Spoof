@@ -14,9 +14,9 @@ Tools
 ,,,,,,
 Usage
 ``````
-git clone
+git clone https://github.com/traplab/macspoof.git
 cd macspoof
-chmod +x install.sh
+bash install.sh
 With admin rights
 `````
 ./install.sh 
@@ -31,4 +31,3 @@ Negative search ,directories will be created
 -change permissions of copied scripts for functionality
 -enable(so as they can be started on boot up) then start service
 -detect interface,bring em down ,macspoof,maybe backup(choice)
-
